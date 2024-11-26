@@ -146,3 +146,18 @@ body {
     }
   }
 }
+
+.gallary{
+    background-color: #aec3b0;
+    margin-top: 20px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallaryimages{
+  height: 300px;
+  width: 200px;
+  margin-left: 10px;
+}
