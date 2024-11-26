@@ -12,8 +12,8 @@
 body {
   header {
     .split-div {
-      width: 100vw;
-      height: 150px;
+      width: 100%;
+      height: 30%;
 
       .half {
         width: 100%;
@@ -40,7 +40,7 @@ body {
 
           .searchbar {
             height: 50px;
-            width: 800px;
+            width: 100%;
             border: black 2px solid;
             outline: none;
             border-radius: 10px;
@@ -147,17 +147,38 @@ body {
   }
 }
 
-.gallary{
-    background-color: #aec3b0;
-    margin-top: 20px;
-    height: 350px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.products{
+  display: flex;
+  gap: 10px;
+  margin: 10px;
 }
-.gallaryimages{
-  height: 300px;
-  width: 200px;
-  margin-left: 10px;
+
+.left-container,.middle-container,.right-container{
+  display: flex;
+  border-radius: 5px;
+  padding: 4px;
+  padding-top: 30px;
+}
+.left-container{
+  padding-left: 30px;
+}
+.right-container{
+  padding-right: 30px;
+}
+.grid-layout{
+  display: grid;
+  grid-template-rows: auto ;
+  gap: 5px;
+}
+.grid-item{
+  background-color: antiquewhite;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+}
+.grid-item img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
