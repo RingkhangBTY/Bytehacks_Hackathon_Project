@@ -205,28 +205,28 @@ body {
 }
 
 footer{
-  background-color: #827676;
-    color: #fff;
-    padding: 20px 40px;
-    text-align: center;
+  background-color: #928787;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
 }
 
-.footer-container{
+.f00ter-c{
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; 
-    gap: 40px; 
-    max-width: 1200px; 
-    margin: 0 auto;
-    padding-left: 20%;
-    padding-right: 20%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
-.imfo-container{
+.imfo-contaner{
   display: flex;
-    flex-direction: column;
-    align-items: center; 
-    gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .imfo-container h6{
