@@ -104,17 +104,26 @@ body {
           .home {
             text-decoration: none;
             color: white;
+            margin-right: 10%;
             font-size: 1.3rem;
           }
 
           .categories {
             height: 100%;
-            border-radius: 5px;
-            background: transparent;
+            padding-left: 10px;
+            text-align: center;
             border: none;
+            background: transparent;
+            border-radius: 5px;      
             outline: none;
             font-size: 1.3rem;
-            color: white;
+            color: #fdfdfd;
+            cursor: pointer;
+          }
+          .categories option[selected]{
+            margin-left: 20px;
+            background-color: #e6f7ff;
+            color: #2a2828;
           }
 
           .cart {
