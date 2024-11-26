@@ -205,28 +205,27 @@ body {
 }
 
 footer{
-  background-color: #827676;
-    color: #fff;
-    padding: 20px 40px;
-    text-align: center;
+  background-color: #928787;
+  color: #fff;
+  padding: 20px 40px;
+  text-align: center;
 }
 
 .footer-container{
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; 
-    gap: 40px; 
-    max-width: 1200px; 
-    margin: 0 auto;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.imfo-container{
-  display: flex;
     flex-direction: column;
     align-items: center; 
-    gap: 10px;
+    gap: 20px;
+}
+
+.imfo-contaner{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .imfo-container h6{
@@ -246,4 +245,3 @@ footer{
   color: #ddd;
   text-decoration: none;
   display: block;
-}

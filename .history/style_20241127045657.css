@@ -204,30 +204,6 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-footer{
-  background-color: #827676;
-    color: #fff;
-    padding: 20px 40px;
-    text-align: center;
-}
-
-.footer-container{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; 
-    gap: 40px; 
-    max-width: 1200px; 
-    margin: 0 auto;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-.imfo-container{
-  display: flex;
-    flex-direction: column;
-    align-items: center; 
-    gap: 10px;
-}
 
 .imfo-container h6{
   display: flex;
