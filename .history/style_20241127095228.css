@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Exo;
+}
+
+body {
+  header {
+    .split-div {
+      width: 100%;
+      height: 30%;
+
+      .half {
+        width: 100%;
+      }
+
+      .half-top {
+        background-color: #ccc;
+        height: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+          text-decoration: none;
+          color: white;
+          font-size: 2rem;
+          font-family: Edu AU VIC WA NT Pre, cursive;
+          font-weight: 500;
+          margin-left: 40px;
+        }
+
+        .searchdiv {
+          display: flex;
+
+          .searchbar {
+            height: 50px;
+            width: 100%;
+            border: black 2px solid;
+            outline: none;
+            border-radius: 10px;
+            padding-left: 20px;
+            font-size: 1.4rem;
+            font-family: Roboto;
+          }
+
+          .alley-search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            background-color: #aec3b0;
+            border: 2px black solid;
+            margin-left: 1px;
+            border-radius: 10px;
+            cursor: pointer;
+
+            i {
+              color: black;
+              font-size: 1.4rem;
+            }
+          }
+        }
+
+        .artisan-story .story{
+          color: white;
+          font-size: 1.4rem;
+          text-decoration: none;
+          font-family: Exo;
+          font-weight: 600;
+        }
+
+        .login-and-seller {
+          height: 60px;
+          width: 400px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+
+        .login-and-seller .login {
+          color: white;
+          font-size: 1.4rem;
+          text-decoration: none;
+          font-family: Exo;
+          font-weight: 600;
+        }
+      }
+
+      .half-bottom {
+        background-color: #6b8f71;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav2 {
+          height: 40px;
+          width: 250px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-left: 40px;
+          margin-right: 40px;
+
+          .home {
+            text-decoration: none;
+            color: white;
+            margin-right: 10%;
+            font-size: 1.3rem;
+          }
+
+          .categories {
+            height: 100%;
+            padding-left: 10px;
+            text-align: center;
+            border: none;
+            background: transparent;
+            border-radius: 5px;      
+            outline: none;
+            font-size: 1.3rem;
+            color: #fdfdfd;
+            cursor: pointer;
+          }
+          .categories option[selected]{
+            margin-left: 20px;
+            background-color: #e6f7ff;
+            color: #2a2828;
+          }
+
+          .donation{
+            display: block;
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+          }
+
+          .cart {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: white;
+          }
+
+          .wishlist {
+            height: 100%;
+            border-radius: 5px;
+            background: transparent;
+            border: none;
+            outline: none;
+            font-size: 1.3rem;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.products{
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.left-container,.middle-container,.right-container{
+  display: flex;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 30px;
+}
+.left-container{
+  padding-left: 30px;
+}
+.right-container{
+  padding-right: 30px;
+}
+.grid-layout{
+  display: grid;
+  grid-template-rows: auto ;
+  gap: 10px;
+}
+.grid-item{
+  background-color: antiquewhite;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.grid-item img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.grid-item p{
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+  background-color: #827676;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+    gap: 40px; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.imfo-container{
+  display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;
+}
+
+.imfo-container h6{
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ddd;
+  margin: 10px auto;
+}
+.imfo-container  p, .imfo-container a{
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #ddd;
+  text-decoration: none;
+  display: block;
+}
